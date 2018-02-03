@@ -19,5 +19,11 @@ Increasing size of the data set reduces the over-fitting problem.
 # 1.2 Probability Theory
 
 The Rules of Probability
-1. sum rule 	  $$p(X) = \sum_{Y}p(X,Y)$$
-2. product rule $$p(X,Y)=p(Y|X)p(X)$$
+1. sum rule 
+$$p(X)=\sum_Yp(X,Y)$$
+
+2. product rule 
+
+$$p(X,Y)=p(Y|X)p(X)$$
+
+Bayes' theorem $$p(Y|X)=\frac{p(X|Y)p(Y)}{p(X)}$$
